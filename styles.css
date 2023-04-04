@@ -34,10 +34,11 @@ body {
 .panel h3 {
     font-size: 24px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10%;
+    left: 60%;
     margin: 0;
     opacity: 0;
+    text-shadow: 2px 4px 4px rgba(55, 57, 61, 0.9);
 }
 
 .panel.active {
@@ -47,7 +48,7 @@ body {
 .panel.active h3 {
     opacity: 1;
     transition: 0.3s ease-in 0.4s;
-    }
+}
 
 @media(max-width: 480px) {
     .container{
